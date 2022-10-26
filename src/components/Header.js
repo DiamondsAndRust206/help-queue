@@ -3,10 +3,10 @@ import ticketsImage from "./../img/ticket.jpg";
 
 function Header(){
   return (
-    <ReactFragment>
+    <React.Fragment>
       <h1>Help Queue</h1>
       <img src={ticketsImage} alt="Image of a ticket" />
-    </ReactFragment>
+    </React.Fragment>
   );
 }
 
